@@ -167,6 +167,21 @@ button:hover{
     border: solid 1px black;
 }
 /* end projects */
+.button{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(20, 91, 255, 0.693);
+    border-radius: 50%;
+    text-align: center;
+    font-size:25px;
+    font-weight: bolder;
+    margin: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+/* skills start*/
+/* skills end */
 /* media */
 @media (max-width: 600px){
     .container{
