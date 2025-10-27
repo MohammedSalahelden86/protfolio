@@ -212,11 +212,43 @@ button:hover{
         padding: 1px 10px;
     }
     .card{
-        width: 85%;
+        width: 45%;
+        align-items: center;
+    }
+    .image-card img{
+        width: 100%;
+    }
+    .container-card{
+        margin-bottom: 10px;
+    }
+}
+@media (min-width:601px) and (max-width:925px){
+    .container{
+        height: fit-content;
+    }
+    .navigation{
+        padding: 10px 30px;
+        background: rgba(255, 255, 255, 0.1);
+    }
+    .info{
+        padding: 10px 30px;
+    }
+    .about{
+        padding: 10px 30px;
+        height: fit-content;
+    }
+    .project{
+        padding: 10px 30px;
+    }
+    .card{
+        width: 30%;
         align-items: center;
     }
     .container-card{
         margin-bottom: 10px;
+    }
+    .image-card img{
+        width: 100%;
     }
 }
 /* media */
