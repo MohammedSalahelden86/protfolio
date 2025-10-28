@@ -94,6 +94,7 @@ ul li a:hover{
     border: 2px solid transparent;
 
 }
+
 button:hover{
     background-color: transparent;
     color: white;
@@ -230,12 +231,16 @@ button:hover{
     padding: 20px;
 }
 .card-info{
+    border: 1px solid black;
     background: white;
     width: 40%;
     height: 150px;
     text-align: center;
     align-content: center;
     border-radius: 12px;
+}
+.card-info:hover{
+    box-shadow: 1px 1px 3px black;
 }
 .card-info h5{
     color: #0d109e;
