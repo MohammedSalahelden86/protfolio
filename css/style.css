@@ -263,6 +263,12 @@ button:hover{
     .skills-card{
         width: 40%;
     }
+    .skills-image{
+        width: 100%;
+    }
+    .skills-image img{
+        width: 100%;
+    }
 }
 @media (min-width:601px) and (max-width:925px){
     .container{
@@ -297,6 +303,12 @@ button:hover{
     }
     .skills-card{
         width: 30%;
+    }
+    .skills-image{
+        width: 100%;
+    }
+    .skills-image img{
+        width: 100%;
     }
 }
 /* media */
