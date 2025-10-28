@@ -218,6 +218,56 @@ button:hover{
 }
 
 /* skills end */
+/* start contact */
+.contact{
+    background: #eee;
+    padding: 20px 200px;
+}
+.contact-card{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.card-info{
+    background: white;
+    width: 40%;
+    height: 150px;
+    text-align: center;
+    align-content: center;
+    border-radius: 12px;
+}
+.card-info h5{
+    color: #0d109e;
+    font-size: 30px;
+}
+.card-info a{
+    text-decoration: none;
+    color: #0d109e;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* end contact */
+/* start footer */
+.footer{
+    width: 100%;
+    background: #01022d;
+    padding: 20px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+}
+.info-footer{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    color: white;
+}
+.icons-footer{
+    color: white;
+    font-size:30px;
+}
 /* media */
 @media (max-width: 600px){
     .container{
@@ -259,6 +309,7 @@ button:hover{
     }
     .skills-container{
         padding: 1px 10px;
+        margin-bottom: 10px;
     }
     .skills-card{
         width: 40%;
@@ -268,6 +319,27 @@ button:hover{
     }
     .skills-image img{
         width: 100%;
+    }
+    .footer{
+        padding: 1px 40px;
+    }
+    .info-footer{
+    font-size: 11px;
+    }
+    .icons-footer{
+        color: white;
+        font-size:15px;
+    }
+    .contact{
+        padding: 1px 10px;
+    }
+    .card-info h5{
+        color: #0d109e;
+        font-size: 9px;
+    }
+    .card-info a{
+        color: #0d109e;
+        font-size: 14px;
     }
 }
 @media (min-width:601px) and (max-width:925px){
@@ -309,6 +381,23 @@ button:hover{
     }
     .skills-image img{
         width: 100%;
+    }
+    .footer{
+        padding: 1px 40px;
+    }
+    .icons-footer{
+        color: white;
+    }
+    .contact{
+        padding: 1px 10px;
+    }
+    .card-info h5{
+        color: #0d109e;
+        font-size: 18px;
+    }
+    .card-info a{
+        color: #0d109e;
+        
     }
 }
 /* media */
