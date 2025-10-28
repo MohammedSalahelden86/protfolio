@@ -38,6 +38,7 @@ a{
 }
 .navigation{
     display: flex;
+    z-index: 1000;
     justify-content: space-between;
     align-items: center;
     padding: 20px 200px ;
@@ -258,10 +259,12 @@ button:hover{
     width: 100%;
     background: #01022d;
     padding: 20px 200px;
+    height: 10vh;
+    position: relative;
+    bottom: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: fit-content;
 }
 .info-footer{
     font-size: 25px;
@@ -326,7 +329,10 @@ button:hover{
         width: 100%;
     }
     .footer{
-        padding: 1px 40px;
+        padding: 1px 30px;
+        position: sticky;
+        bottom: 4;
+        height: 8vh;
     }
     .info-footer{
     font-size: 11px;
@@ -337,6 +343,10 @@ button:hover{
     }
     .contact{
         padding: 1px 10px;
+    }
+    .contact-card{
+        text-align: center;
+        align-items: center;
     }
     .card-info h5{
         color: #0d109e;
