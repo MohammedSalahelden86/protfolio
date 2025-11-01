@@ -169,18 +169,16 @@ button:hover{
     border: solid 1px black;
 }
 /* end projects */
-.button{
+#btnscroll{
     width: 40px;
     height: 40px;
     background-color: rgba(20, 91, 255, 0.693);
-    border-radius: 50%;
-    text-align: center;
-    font-size:25px;
-    font-weight: bolder;
-    margin: 10px;
+    border: none;
     position: fixed;
-    bottom: 0;
-    right: 0;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+    display: none;
 }
 /* skills start*/
 .skills-container{
@@ -261,18 +259,21 @@ button:hover{
     padding: 20px 200px;
     height: 10vh;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 .info-footer{
     font-size: 25px;
+    width: 80%;
     letter-spacing: 1px;
     font-weight: 900;
     color: white;
 }
-.icons-footer{
+.icons-footer a { 
+    width: 20%;
     color: white;
     font-size:30px;
+
 }
 /* media */
 @media (max-width: 600px){
